@@ -1,0 +1,83 @@
+.form-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.loan-form h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #37474f;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 60px;
+  margin-bottom: 30px;
+}
+
+.form-grid input,
+.form-grid textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-grid input:focus,
+.form-grid textarea:focus {
+  border-color: #008f7e; /* Green border on focus */
+  outline: none;
+}
+
+textarea {
+  grid-column: span 2; /* Textarea spans across both columns */
+  height: 100px;
+  resize: none;
+}
+
+.checkbox-group {
+  margin-top: 10px;
+  grid-column: span 2;
+}
+
+.checkbox-group label {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #008f7e;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #007b69;
+}

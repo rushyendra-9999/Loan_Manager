@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(220, 215, 215);
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+  font-size: 20px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu li a {
+  color: green;
+  text-decoration: none;
+}
+
+.navbar-user {
+  margin-left: auto;
+}
+
+.navbar-user a {
+  color: green;
+}
